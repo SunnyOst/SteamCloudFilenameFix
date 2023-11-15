@@ -10,7 +10,7 @@ This script uses the names to create an actual folder structure with correctly n
   This script CANNOT distinguish "underscores that are part of a file/folder name" from "underscores that are used to indicate separate folder/file names in the path".
   EVERY underscore in the name of any file in source directory will be treated as a separator between parts of the path.
   IE "backup_001.txt" will be treated as "backup/001.txt" and will result in a file "001.txt" inside a folder "backup".
-  You may choose to rename and move incompatible files manually or modify this script to accomodate your specific situation.
+  You may choose to rename and move incompatible files manually or modify this script to accomodate your specific situation (example function to temporarily modify the problematic value provided in the setup).
 
 2. Place the compatible files in a single folder.
 3. Open the script in an editor to read the important part again and double-check.
