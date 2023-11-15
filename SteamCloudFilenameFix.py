@@ -66,7 +66,7 @@ for filename in files:
     # Execute the de-underscorer function to remove potential issues
     newfilename = manualrename(filename)
     
-    # If steam has added a special folder before all the other folder names, format it to be the same as others
+    # If steam has added a special folder (IE "%GameInstall%") before all the other folder names, format it to be the same as others
     if newfilename.startswith("%"):
         newfilename = newfilename.replace("%","",1)
         newfilename = newfilename.replace("%","_",1)
