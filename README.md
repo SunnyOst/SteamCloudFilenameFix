@@ -10,10 +10,10 @@ This script uses the names to create an actual folder structure with correctly n
   This script CANNOT distinguish "underscores that are part of a file/folder name" from "underscores that are used to indicate separate folder/file names in the path".
   EVERY underscore in the name of any file in source directory will be treated as a separator between parts of the path.
   IE "backup_001.txt" will be treated as "backup/001.txt" and will result in a file "001.txt" inside a folder "backup".
-  You may choose to rename and move incompatible files manually or modify this script to accomodate your specific situation (example function to temporarily modify the problematic value provided in the setup).
+  You may choose to rename and move incompatible files manually or modify this script to accomodate your specific situation (example functions to temporarily modify the problematic names provided in the setup part of the script).
 
-2. Place the compatible files in a single folder.
-3. Open the script in an editor to read the important part again and double-check.
+2. Copy the compatible files in a single folder.
+3. Open the script in an editor to read the important part again and double-check everything.
 4. Set the paths to directories you wish to use as a source and destination(optional) inside the script.
 5. I am not responsible for any kind of data loss or other issues that could arise from using this script. Use at your own risk: Save and run.
 6. The files should be renamed correctly and placed inside the folders according to the path written in their names.
